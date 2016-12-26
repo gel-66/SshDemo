@@ -4,6 +4,8 @@ public class Product {
 	private Integer id;
 	private String name;
 	private Double price;
+	
+	public Product(){};
 	public Integer getId() {
 		return id;
 	}

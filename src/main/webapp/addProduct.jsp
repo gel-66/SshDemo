@@ -11,7 +11,7 @@
 <body>
 <h1>保存商品的页面</h1>
 <!-- struts2有个自带的样式 simple可以取消默认样式 -->
-<s:form action="" method="" namespace="/" theme="simple">
+<s:form action="product_save" method="post" namespace="/" theme="simple">
 	<table border="1" width="400">
 		<tr>
 			<td>商品名称</td>
@@ -22,7 +22,7 @@
 			<td><s:textfield name="price"/></td>
 		</tr>
 		<tr>
-			<td colspan="2"><s:submit>提交</s:submit></td>
+			<td colspan="2"><input type="submit" value="提交"></td>
 		</tr>
 	</table>
 </s:form>
